@@ -237,9 +237,9 @@ import os.path
 
 def mainflow(dirname, out_dir='prediction'):
     for path in Path(dirname).glob('*mkv'):
-        out_dir = os.path.join(out_dir, path.stem)
-        os.makedirs(out_dir, exist_ok=True)
-        process_video(str(path), out_dir)
+        out_subdir = os.path.join(out_dir, path.stem)
+        os.makedirs(out_subdir, exist_ok=True)
+        process_video(str(path), out_subdir)
         
         
 if __name__ == '__main__':
