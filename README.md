@@ -6,3 +6,6 @@
 python script.py VID_PATH
 ```
 где VID_PATH - путь до папки с видео
+
+## DEMO
+[![Watch the video](https://github.com/gorodion/PigTracking/blob/main/demo.jpg)](https://youtu.be/Yr1gsxaYExQ)
